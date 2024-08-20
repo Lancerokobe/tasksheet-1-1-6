@@ -1,6 +1,6 @@
 public class Tasksheet116 {
     public static void main(String[] args) {
-        String input = "wow";
+        String input = "haha";
         StringBuilder reversed = new StringBuilder(input);
         reversed.reverse();
 
