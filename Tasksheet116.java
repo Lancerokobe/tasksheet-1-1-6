@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Tasksheet116 {
     public static void main(String[] args) {
-        String input = "haha";
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter words:");
+        String input = scan.nextLine();
         StringBuilder reversed = new StringBuilder(input);
         reversed.reverse();
 
